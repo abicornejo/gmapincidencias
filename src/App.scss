@@ -1,0 +1,39 @@
+/* Place your extensions here to make migration to a new release easier. */
+.layout-sidebar.layout-sidebar-dark, .layout-topbar{
+      background-color: #6610f2 !important; 
+      background: #6610f2 !important; 
+}
+.layout-sidebar-dark {
+    background: none;;
+}
+
+@media only screen and (min-width: 981px){
+.logo {
+    max-height: 80%;
+}
+}
+.logo {
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    margin-bottom: 0;
+    height: 50px;
+    max-height: 54%;
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+}
+
+.layout-sidebar .layout-logo {
+    margin-top: 0px;
+    background-color: white;
+}
+
+.overlaypanel-demo .select-product-button {
+    min-width: 15rem;
+}
+
+.overlaypanel-demo .product-image {
+    width: 50px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
